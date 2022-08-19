@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/About_me.html" id="navbar__logo"><i class="fas fa-gem"></i>Ovodas</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/index.html#" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/projects.html" class="navbar__links">Projects</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/links.html" class="navbar__links">Links</a>
+          </li>
+          <li class="navbar__btn"><a href="/About_me.html" class="button">About Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <div class="main">
+          <div class ="information">
+            <div class ="overlay"></div>
+            <img src ='images/folder.jpg' class="middle">
+            <div id = "circle">
+              <div class="feature one">
+                <!-- <img src="images/dcu-logo.png"> -->
+                <div>
+                  <h1> project 1</h1>
+                  <p> NN</p>
+                </div>
+              </div>
+              <div class="feature two">
+                <!-- <img src="images/dcu-logo.png"> -->
+                <div>
+                  <h1> project 2</h1>
+                  <p> machinel learning</p>
+                </div>
+              </div>
+
+              <div class="feature twoimg">
+                <!-- <img src="images/dcu-logo.png"> -->
+                <div>
+                  <img src ='images/folder.jpg' class="middle">
+                </div>
+              </div>
+              <div class="feature three">
+                <!-- <img src="images/dcu-logo.png"> -->
+                <div>
+                  <h1> project 3</h1>
+                  <p> data science</p>
+                </div>
+              </div>
+              <div class="feature four">
+                <!-- <img src="images/dcu-logo.png"> -->
+                <div>
+                  <h1> project 4</h1>
+                  <p> stats</p>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class = "controls">
+        <img src="images/arrow.png" id ="upBtn">
+        <h3>Rotate projects</h3>
+        <img src="images/arrow.png" id ="downBtn">
+      </div>
+  
+    </div>
+
+    <script>
+      var circle = document.getElementById("circle");
+      var upBtn = document.getElementById("upBtn");
+      var downBtn = document.getElementById("downBtn");
+
+      var rotateValue = circle.style.transform;
+      var rotateSum;
+
+      upBtn.onclick = function() {
+        rotateSum = rotateValue + "rotate(-90deg)";
+        circle.style.transform = rotateSum;
+        rotateValue = rotateSum;
+      }
+
+        downBtn.onclick = function() {
+        rotateSum = rotateValue + "rotate(90deg)";
+        circle.style.transform = rotateSum;
+        rotateValue = rotateSum;
+      }
+
+    </script>
+  </body>
+</html>
