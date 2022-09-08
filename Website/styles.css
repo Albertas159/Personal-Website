@@ -508,9 +508,30 @@
     margin-top: 8px;
 }
 
+.feature2 img {
+  width: 750px;
+}
+
+.feature2{
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+.feature2 div {
+  margin-left: 30px;
+}
+.feature2 div p {
+  margin-top: 8px;
+}
+
 .one {
     top:450px;
     right: 50px;
+}
+
+.oneimg {
+  top:490px;
+  right: -120px;
 }
 .two {
     top: 100px;
@@ -528,11 +549,23 @@
     bottom:450px;
     left: 50px;
     transform: rotate(-180deg);
+
+}
+.threeimg {
+  bottom:490px;
+  left: -120px;
+  transform: rotate(-180deg);
 }
 .four {
     bottom: 100px;
     right: 400px;
     transform: rotate(-270deg);
+}
+
+.fourimg {
+  bottom: -100px;
+  right: 470px;
+  transform: rotate(-270deg);
 }
 
 .middle {
