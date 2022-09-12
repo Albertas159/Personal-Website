@@ -43,7 +43,7 @@ About me page
 Links
 ![image](https://user-images.githubusercontent.com/100313005/189709756-3df72a10-bf3f-49e7-9ad8-499a4e894d19.png)
 
-4 Main Projects
+4 Main Projects (Rotating images of previous projects)
 ![image](https://user-images.githubusercontent.com/100313005/189709949-308f1f1b-31dc-44ed-b62f-1b141a9c59c5.png)
 ![image](https://user-images.githubusercontent.com/100313005/189710004-8ffdf763-3263-4f8f-b678-9b54ad2b1c18.png)
 ![image](https://user-images.githubusercontent.com/100313005/189710044-481e104e-41af-4465-9a9d-11f9b58bc23d.png)
