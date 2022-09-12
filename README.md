@@ -1,4 +1,9 @@
 # Personal-Website
+
+***************
+Ovodas.com
+***************
+
 First time using html and css,
 guides used for initial foundations
 
@@ -10,8 +15,8 @@ along with adding my own and merging these ideas together
 
 **NOTE**
 
-Still a working progress in respect to responsiveness, scalability and mobile use
-
+Still a working progress in respect to responsiveness, scalability and not suitable for mobile use
+also if out of scale zoom in or out of the page (CTRL+scroll-wheel)
 
 ## Introduction
 
